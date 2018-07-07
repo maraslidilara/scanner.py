@@ -1,6 +1,6 @@
 import socket # import the socket library
 import sys    ### import the sys library for System-specific parameters and functions ###
-
+print("scanning....")
 def open_ports(host,port): #Return Boolean
     try:    # try connecting to host at port and if successful return true if false got to except
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # declare sock varible using AF_INET which sets the IPv4 and SOCK_STREAM sets protocol to TCP
